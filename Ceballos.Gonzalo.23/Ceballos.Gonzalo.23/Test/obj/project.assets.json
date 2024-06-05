@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CentroDeAtencion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CentroDeAtencion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CentroDeAtencion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CentroDeAtencion/1.0.0": {
+      "type": "project",
+      "path": "../CentroDeAtencion/CentroDeAtencion.csproj",
+      "msbuildProject": "../CentroDeAtencion/CentroDeAtencion.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CentroDeAtencion >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\GCeballos\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\GCeballos\\Documents\\prueba\\Ceballos.Gonzalo.23\\Ceballos.Gonzalo.23\\Test\\Test.csproj",
+      "projectName": "Test",
+      "projectPath": "C:\\Users\\GCeballos\\Documents\\prueba\\Ceballos.Gonzalo.23\\Ceballos.Gonzalo.23\\Test\\Test.csproj",
+      "packagesPath": "C:\\Users\\GCeballos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GCeballos\\Documents\\prueba\\Ceballos.Gonzalo.23\\Ceballos.Gonzalo.23\\Test\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\GCeballos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\GCeballos\\Documents\\prueba\\Ceballos.Gonzalo.23\\Ceballos.Gonzalo.23\\CentroDeAtencion\\CentroDeAtencion.csproj": {
+              "projectPath": "C:\\Users\\GCeballos\\Documents\\prueba\\Ceballos.Gonzalo.23\\Ceballos.Gonzalo.23\\CentroDeAtencion\\CentroDeAtencion.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
